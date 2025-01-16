@@ -5,21 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="LaslesVPN.css">
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
-    <nav class="">
-        <div class="flex gap-10 justify-center py-11">
-            <a href="#">About</a>
-            <a href="#">Features</a>
-            <a href="#">Pricing</a>
-            <a href="#">Testimonials</a>
-            <a href="#">Help</a>
-            <div class="flex gap-7 items-end">
-                <button type="button">Sign In</button>
-                <button type="button">Sign Up</button>
+<body class="">
+    <div class="flex justify-between p-10" >
+        <div>
+           <img src="img/Logo (1).svg" alt="LaslesVPN"> 
+        </div>
+        <div class="flex list-none space-x-8 text-gray-500">
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Features</a>
+            </li>
+            <li>
+                <a href="#">Pricing</a>
+            </li>
+            <li>
+                <a href="#">Testimonials</a>
+            </li>
+            <li>
+                <a href="#">Help</a>
+            </li>
+        </div>
+        <div class="space-x-6">
+            <button class="" type="button">Sign In</button>
+            <button class="border-orange-400 rounded-full border-2 px-6 py-2" type="button">Sign Up</button>
+        </div>
+    </div>
+
+    <div class="">
+        <div class="grid grid-cols-2 max-wd-md mx-auto px-8 py-12 lg:px-12 lg:py-24 lg:mr-0 max-wd-full">
+            <div class="">
+                <h1 class="font-bold text-4xl mt-6 flex flex-wrap ">Want anything to be 
+                    <br>easy with LaslesVPN.</h1>
+                <p class="mt-5 text-gray-500">Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</p>
+            <div>
+                <button class="bg-red-500 rounded-lg px-10 py-3 text-white font-semibold mt-4 shadow-xl focus:outline-none focus:ring inline-block focus:ring-offset-6 focus:ring-blue-300 focus:ring-opacity-50" type="button">Get Started</button>
+            </div>
+            </div>
+            <div class="hidden lg:block relative">
+                <img class=" absolute inset-0 h-full w-full object-cover object-center " src="img/Illustration 1.svg" alt="">
+
             </div>
         </div>
-    </nav>
+        </div>
+        <div class="border-1 grid grid-cols-5 justify-items-center px-8 py-10 m-16 shadow-2xl">
+            <div class="flex items-center space-x-4">
+                <i class='bx bx-user-circle text-4xl text-red-500' ></i>
+                <div>
+                    <p class="font-bold">90+</p>
+                    <span>users</span>
+                </div>
+                
+            </div>
+            <div class="h-20 w-0.5 bg-gray-200"></div>
+            <div class="flex items-center space-x-4">
+                <i class='bx bx-current-location text-4xl text-red-500'></i>
+                <div>
+                    <p class="font-bold" >30+</p>
+                    <span>Locations</span>
+                </div>
+                
+            </div>
+            <div class="h-20 w-0.5 bg-gray-200 mx-4"></div>
+            <div class="flex items-center space-x-4">
+                <i class='bx bxs-server text-4xl text-red-500'></i>
+                <div>
+                    <p class="font-bold">50+</p>
+                    <span>Servers</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 </body>
 </html>
