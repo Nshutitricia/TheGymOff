@@ -5,11 +5,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      listStyleImage:{
-        customIcon: 'url(/img/Group 1120.svg)'
-      },
-    },
+    extend: {},
   },
   plugins: [
     function ({ addComponents }){
