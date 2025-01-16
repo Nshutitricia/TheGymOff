@@ -5,8 +5,21 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      listStyleImage:{
+        customIcon: 'url(/img/Group 1120.svg)'
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }){
+      addComponents({
+        '.list-image-custom' : {
+          listStyleType: 'none',
+          listStyleImage: 'url(/img/Group 1120.svg)',
+        },
+      });
+    },
+  ],
 }
 
